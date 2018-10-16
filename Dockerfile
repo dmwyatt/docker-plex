@@ -19,6 +19,7 @@ PLEX_MEDIA_SERVER_USER=abc
 RUN \
  echo "**** install runtime packages ****" && \
  apt-get update && \
+ apt-get install -y \
 	dbus \
 	udev \
 	unrar \
